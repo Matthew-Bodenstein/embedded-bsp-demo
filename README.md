@@ -77,7 +77,7 @@ This demo highlights:
 - **Embedded BSP software** principles.  
 - **Real-time task scheduling** using FreeRTOS.  
 - **Inter-task communication** with queues/semaphores.  
-- **System health monitoring** with memory diagnostics.  
+- **System health monitoring** with memory diagnostics.  // This can be added but was not added in this project.
 
 It mirrors real-world engineering tasks such as:  
 - Developing board support packages for SoC-based systems.  
