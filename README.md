@@ -10,7 +10,7 @@ It simulates real-time tasks for communication, sensor drivers, error handling, 
 - **Task A (Communication / UART):** Sends simulated UART heartbeat messages.  
 - **Task B (Sensor Driver):** Generates random sensor values and sends them via a queue.  
 - **Task C (Error Handling):** Reads sensor values, flags errors if out of range.  
-- **Task D (Memory Test – optional):** Simulates system memory diagnostics.  
+- **Task D (Memory Test – optional):** Simulates system memory diagnostics.  // So this is not added to this project but can be added.
 - Uses **queues** for inter-task communication.  
 - Uses **semaphores** for resource protection.  
 - Includes **timestamped logging** for each task action.  
